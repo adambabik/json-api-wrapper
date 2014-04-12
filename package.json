@@ -1,0 +1,21 @@
+{
+  "name": "json-api-wrapper",
+  "version": "0.1.0",
+  "description": "Wrap native JavaScript objects to be JSON API compliant.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R dot --ui bdd ./tests/**/*_test.js"
+  },
+  "keywords": [
+    "json",
+    "api"
+  ],
+  "author": "Adam Babik",
+  "license": "MIT",
+  "dependencies": {
+    "lodash-node": "~2.4.1"
+  },
+  "devDependencies": {
+    "chai": "~1.9.1"
+  }
+}
